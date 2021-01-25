@@ -8,7 +8,7 @@
     <version>1.0.8</version>
     <infourl title="Easy Images">https://github.com/r3tr0sp3c/easyimages/</infourl>
     <downloads>
-        <downloadurl type="full" format="zip">https://github.com/r3tr0sp3c/easyimages/archive/main.zip</downloadurl>
+        <downloadurl type="full" format="zip">https://codeload.github.com/r3tr0sp3c/easyimages/zip/easyimages-1.0.8.zip</downloadurl>
     </downloads>
     <tags>
         <tag>stable</tag>
