@@ -15,5 +15,5 @@
     </tags>
     <maintainer>Filippos Kyparissopoulos</maintainer>
     <maintainerurl>https://www.facebook.com/filippos76</maintainerurl>
-    <targetplatform name="joomla" version="[34].[123456789]"/>
+    <targetplatform name="joomla" version="3"/>
 </update>
