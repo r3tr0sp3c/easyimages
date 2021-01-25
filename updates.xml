@@ -3,7 +3,7 @@
     <description>Content Plugin for Joomla! 3</description>
     <element>plg_content_easyimages</element>
     <type>plugin</type>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <infourl title="Easy Images">https://github.com/r3tr0sp3c/easyimages/</infourl>
     <downloads>
         <downloadurl type="full" format="zip">https://github.com/r3tr0sp3c/easyimages/archive/main.zip</downloadurl>
