@@ -4,7 +4,7 @@
     <element>easyimages</element>
     <type>plugin</type>
     <folder>content</folder>
-    <client>1</client>
+    <client>0</client>
     <version>1.0.8</version>
     <infourl title="Easy Images">https://github.com/r3tr0sp3c/easyimages/</infourl>
     <downloads>
