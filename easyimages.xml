@@ -34,9 +34,9 @@
                 default = "10" />
 		</fieldset>
 	</fields>
+    </config>
     <updateservers>
-        <server type="extension" priority="1" name="Easy Images Github">https://raw.githubusercontent.com/r3tr0sp3c/easyimages/main/updates.xml</server>
+        <server type="extension" priority="2" name="Easy Images Github">https://raw.githubusercontent.com/r3tr0sp3c/easyimages/main/updates.xml</server>
     </updateservers>
-    </config>  
 
 </extension>
