@@ -1,7 +1,7 @@
 <update>
     <name>Easy Images</name>
     <description>Content Plugin for Joomla! 3</description>
-    <element>plg_content_easyimages</element>
+    <element>easyimages</element>
     <type>plugin</type>
     <version>1.0.8</version>
     <infourl title="Easy Images">https://github.com/r3tr0sp3c/easyimages/</infourl>
