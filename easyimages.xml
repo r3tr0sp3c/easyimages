@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+    <name>plg_content_easyimages</name>
+    <creationDate>January 2021</creationDate>
+    <author>Filippos Kyparissopoulos</author>
+    <authorEmail>filipposkip@gmail.com</authorEmail>
+    <authorUrl>https://www.filippos.gr</authorUrl>
+    <copyright>Copyright 2021-2022</copyright>
+    <license>GNU/GPL</license>
+    <version>1.0.5</version>
+    <description>PLG_CONTENT_EASYIMAGES_DESCRIPTION</description>
+
+    <files>
+    <filename plugin="easyimages">easyimages.php</filename>
+    <folder>css</folder>
+    <folder>js</folder>
+    <folder>media</folder>
+    <folder>language</folder>
+    </files>
+    <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_easyimages.ini</language>
+    <language tag="el-GR">language/el-GR/el-GR.plg_content_easyimages.ini</language>
+    </languages>
+    <config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="typeofaction" type="radio" default="0" label="PLG_CONTENT_EASYIMAGES_TYPEOFACTION_LABEL" description="PLG_CONTENT_EASYIMAGES_TYPEOFACTION_DESCRIPTION">
+                <option value="0">PLG_CONTENT_EASYIMAGES_TYPEOFACTION_VALUE0</option>
+                <option value="1">PLG_CONTENT_EASYIMAGES_TYPEOFACTION_VALUE1</option>
+            </field>
+            <field name="group" type="text"
+				description="PLG_CONTENT_EASYIMAGES_GROUP_DESCRIPTION"
+				label="PLG_CONTENT_EASYIMAGES_GROUP_LABEL"
+                default = "10" />
+		</fieldset>
+	</fields>
+    <updateservers>
+        <server type="extension" priority="1" name="Easy Images Github">http://example.com/extension.xml</server>
+    </updateservers>
+    </config>  
+
+</extension>

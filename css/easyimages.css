@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.easy-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.ei-modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+.ei-modal-pagination-pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ei-picture {
+    margin: 5px;
+}
+
+.ei-modal-picture img {
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+.ei-item-hide {
+    display: none;
+}
+
+.ei-modal-picture-show {
+    display: inline;
+}
+
+.ei-img-fits-screen {
+    width: 100%;
+    height: auto;
+}
+
+.ei-img-xwidth {
+    max-width: 90vw;
+    height: auto;
+}
+
+.ei-img-xheight {
+    max-width: 70vw;
+}
+
