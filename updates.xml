@@ -1,0 +1,17 @@
+<update>
+    <name>Easy Images</name>
+    <description>Content Plugin for Joomla! 3</description>
+    <element>plg_content_easyimages</element>
+    <type>plugin</type>
+    <version>1.0.5</version>
+    <infourl title="Easy Images">https://github.com/r3tr0sp3c/easyimages/</infourl>
+    <downloads>
+        <downloadurl type="full" format="zip">https://github.com/r3tr0sp3c/easyimages/archive/main.zip</downloadurl>
+    </downloads>
+    <tags>
+        <tag>stable</tag>
+    </tags>
+    <maintainer>Filippos Kyparissopoulos</maintainer>
+    <maintainerurl>https://www.facebook.com/filippos76</maintainerurl>
+    <targetplatform name="joomla" version="[34].[123456789]"/>
+ </update>

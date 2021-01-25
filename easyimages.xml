@@ -35,7 +35,7 @@
 		</fieldset>
 	</fields>
     <updateservers>
-        <server type="extension" priority="1" name="Easy Images Github">http://example.com/extension.xml</server>
+        <server type="extension" priority="1" name="Easy Images Github">https://raw.githubusercontent.com/r3tr0sp3c/easyimages/dev/updates.xml</server>
     </updateservers>
     </config>  
 
